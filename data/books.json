@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "title":"asefasfeas",
+        "author":"drgsrg",
+        "year_written":1814,
+        "edition":"sdrgsg",
+        "price":18.2
+    },
+    {
+        "id":2,
+        "title":"aergharegh",
+        "author":"dtdfy",
+        "year_written":1987,
+        "edition":"ssth",
+        "price":18.2
+    },
+    {
+        "id":3,
+        "title":"sehd5g",
+        "author":"dser5thsrh",
+        "year_written":1992,
+        "edition":"srthsrth",
+        "price":18.2
+    },
+    {
+        "id":4,
+        "title":"asegseg",
+        "author":"dsrthst",
+        "year_written":1100,
+        "edition":"sdrgsg",
+        "price":18.2
+    }
+]
