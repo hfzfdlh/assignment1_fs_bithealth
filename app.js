@@ -9,6 +9,16 @@ app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 app.use('/',router)
 
-app.listen(port,()=>{
+const server = app.listen(port,()=>{
     console.log(`masuk port ${port}`)
 })
+let gracefulEnd = (server)=>{
+    return ()=>{
+        server.close()
+        console.log("server is shutting down")
+    }
+}
+
+process.on('SIGTERM', gracefulEnd(server))
+process.on('SIGINT', gracefulEnd(server))
+
